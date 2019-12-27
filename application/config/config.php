@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/webcontrata/';
-//$config['base_url'] = 'https://www.webcontrata.com/';
+//$config['base_url'] = 'http://localhost/webcontrata/';
+$config['base_url'] = 'https://www.webcontrata.com/webcontrata/';
 /*
 |--------------------------------------------------------------------------
 | Index File
