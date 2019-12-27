@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://localhost/webcontrata/';
-$config['base_url'] = 'webcontrata/';
+$config['base_url'] = '';
 /*
 |--------------------------------------------------------------------------
 | Index File
