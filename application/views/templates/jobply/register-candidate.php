@@ -10,35 +10,38 @@
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputName">Nombre</label>
-      <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+      <input type="text" class="form-control" id="inputName" name="name" placeholder="Nombre">
     </div>
     <div class="form-group col-md-6">
       <label for="inputSurname">Apellidos</label>
-      <input type="text" class="form-control" id="inputSurname" placeholder="Apellidos">
+      <input type="text" class="form-control" id="inputSurname" name="surname" placeholder="Apellidos">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail">Correo Electronico</label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Correo Electronico">
+      <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Correo Electronico">
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword">Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+      <input type="password" class="form-control" id="inputPassword" name="pass" placeholder="Contraseña">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputJob">Puesto de trabajo deseado</label>
-      <input type="text" class="form-control" id="inputJob">
+      <input type="text" class="form-control" id="inputJob" name="job">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputState">Departamento</label>
-      <select id="inputState" class="form-control">
+      <label for="inputState">Localidad</label>
+      <select id="inputState" class="form-control" name="locations_idlocation">
         <option selected>Seleccione...</option>
-        <option>...</option>
+        <?php foreach($locations as $location){?>
+            <option value="<?= $location->idlocation?>"><?= $location->location?></option>
+        <?php } ?>        
       </select>
     </div>
+    <input type="hidden" name="profiles_idprofile" value="1">
   </div>  
   <button type="submit" class="btn btn-primary">Únirme ahora</button>
 </form>

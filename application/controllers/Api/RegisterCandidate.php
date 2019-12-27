@@ -13,7 +13,8 @@ class RegisterCandidate extends REST_Controller {
     
     public function index_post()
     {
-        $this->load->model('Candidates_model');
+        $input = $this->input->post();
+        $this->db->insert('users', $input);
         $this->response ( ['Item created successfully.'], REST_Controller :: HTTP_OK );
     }
 }
