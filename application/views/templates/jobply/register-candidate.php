@@ -35,9 +35,9 @@
     <div class="form-group col-md-6">
       <label for="inputState">Localidad</label>
       <select id="inputState" class="form-control" name="locations_idlocation">
-        <option selected>Seleccione...</option>
+      <option>Seleccione localidad...</option>
         <?php foreach($locations as $location){?>
-            <option value="<?= $location->idlocation?>"><?= $location->location?></option>
+            <option data-subtext="<?= $location->idlocation?>"><?= $location->location?></option>
         <?php } ?>        
       </select>
     </div>
