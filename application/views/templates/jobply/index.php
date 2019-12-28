@@ -476,7 +476,7 @@
 		        <div class="row justify-content-center pb-3">
 		          <div class="col-md-12 heading-section ftco-animate">
 		          	<span class="subheading">Agencias de reclutamiento</span>
-		            <h2 class="mb-4">Principales reclutamientos</h2>
+		            <h2 class="mb-4">Principales reclutadores</h2>
 		          </div>
 		        </div>
 		        <div class="sidebar-box ftco-animate">
