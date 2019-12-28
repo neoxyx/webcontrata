@@ -475,8 +475,8 @@
 		      <div class="col-lg-3 sidebar">
 		        <div class="row justify-content-center pb-3">
 		          <div class="col-md-12 heading-section ftco-animate">
-		          	<span class="subheading">Recruitment agencies</span>
-		            <h2 class="mb-4">Top Recruitments</h2>
+		          	<span class="subheading">Agencias de reclutamiento</span>
+		            <h2 class="mb-4">Principales reclutamientos</h2>
 		          </div>
 		        </div>
 		        <div class="sidebar-box ftco-animate">
@@ -523,7 +523,7 @@
 		              		<span class="flaticon-employee"></span>
 		              	</div>
 		                <strong class="number" data-number="435000">0</strong>
-		                <span>Jobs</span>
+		                <span>Trabajos</span>
 		              </div>
 		            </div>
 		          </div>
@@ -534,7 +534,7 @@
 		              		<span class="flaticon-collaboration"></span>
 		              	</div>
 		                <strong class="number" data-number="40000">0</strong>
-		                <span>Members</span>
+		                <span>Miembros</span>
 		              </div>
 		            </div>
 		          </div>
@@ -545,7 +545,7 @@
 		              		<span class="flaticon-resume"></span>
 		              	</div>
 		                <strong class="number" data-number="30000">0</strong>
-		                <span>Resume</span>
+		                <span>Resumen</span>
 		              </div>
 		            </div>
 		          </div>
@@ -556,7 +556,7 @@
 		              		<span class="flaticon-promotions"></span>
 		              	</div>
 		                <strong class="number" data-number="10500">0</strong>
-		                <span>Company</span>
+		                <span>Compañia</span>
 		              </div>
 		            </div>
 		          </div>
