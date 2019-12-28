@@ -7,7 +7,7 @@ class Welcome extends CI_Controller {
 	{
 		$data['js_to_load']="";
 		$this->load->view('templates/jobply/header');
-		$this->load->view('templates/jobply/index');
+		$this->load->view('templates/jobply/index',$data);
 		$this->load->view('templates/jobply/footer');
 	}
 	
