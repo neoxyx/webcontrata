@@ -571,8 +571,8 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Testimonial</span>
-            <h2 class="mb-4">Happy Clients</h2>
+          	<span class="subheading">Testimonios</span>
+            <h2 class="mb-4">Clientes Felices</h2>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -658,8 +658,8 @@
     	<div class="container">
     		<div class="row justify-content-center pb-3">
           <div class="col-md-10 heading-section heading-section-white text-center ftco-animate">
-          	<span class="subheading">Candidates</span>
-            <h2 class="mb-4">Latest Candidates</h2>
+          	<span class="subheading">Candidatos</span>
+            <h2 class="mb-4">Ultimos Candidatos</h2>
           </div>
         </div>
     	</div>
@@ -719,7 +719,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">Our Blog</span>
+          	<span class="subheading">Nuestro Blog</span>
             <h2><span>Recent</span> Blog</h2>
           </div>
         </div>
@@ -789,7 +789,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center">
             <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
+              <h2>Subscribete a nuestro Newsletter</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
               <div class="row d-flex justify-content-center mt-4 mb-4">
                 <div class="col-md-12">
