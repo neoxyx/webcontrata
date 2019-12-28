@@ -1,6 +1,6 @@
 $("#frmRegisterCandidate").submit(function (e) {
     e.preventDefault();
-    var url = get_base_url() + '/Api/RegisterCandidate';
+    var url = 'https://www.webcontrata.com/Api/RegisterCandidate';
     $.ajax({
         url: url,
         data: $("#frmRegisterCandidate").serialize(),
