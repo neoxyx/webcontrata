@@ -1,7 +1,7 @@
 /nbproject/private/
 .DS_Store
 
-application/config/config.php
+application/config/*
 application/cache/*
 !application/cache/index.html
 
