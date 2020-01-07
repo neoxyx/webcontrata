@@ -41,8 +41,21 @@
 	          <li class="nav-item"><a href="<?= base_url()?>About" class="nav-link">Nuestra Empresa</a></li>
 	          <li class="nav-item"><a href="<?= base_url()?>Candidates" class="nav-link">Canditatos</a></li>
 	          <li class="nav-item"><a href="<?= base_url()?>Contact" class="nav-link">Contacto</a></li>
+			  <?php if($this->session->has_userdata('logged_in')) { ?>				
+				<li class="nav-item dropdown cta mr-md-1">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi Perfil</a>
+					<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Mi Área</a>
+					<a class="dropdown-item" href="#">Hoja de vida</a>
+					<a class="dropdown-item" href="#">Configuración</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="<?php base_url()?>Welcome/logout">Cerrar Sesión</a>
+					</div>
+				</li>
+			  <?php } else { ?>
 	          <li class="nav-item cta mr-md-1"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalLoginEmployee">Acceso Candidatos</a></li>
 	          <li class="nav-item cta cta-colored"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalLoginCompanys">Acceso Empresas</a></li>
+			  <?php } ?>
 	        </ul>
 	      </div>
 	    </div>
@@ -58,16 +71,16 @@
 			<span aria-hidden="true">&times;</span>
 		  </button>
 		</div>
-		<form>
+		<form id="frmLogin">
 		<div class="modal-body">			
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese email">
+					<input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese email">
 					<small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
 				</div>
 				<div class="form-group">
 					<label for="exampleInputPassword1">Contraseña</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+					<input type="password" class="form-control" name="pass" id="exampleInputPassword1" placeholder="Contraseña">
 				</div>
 				<div class="form-group form-check">
 					<input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -79,7 +92,7 @@
 		</div>
 		<div class="modal-footer">
 		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-		  <button type="button" class="btn btn-primary">Ingresar</button>
+		  <button type="submit" class="btn btn-primary">Ingresar</button>
 		</div>
 		</form>
 	  </div>

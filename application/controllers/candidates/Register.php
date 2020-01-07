@@ -7,7 +7,7 @@ class Register extends CI_Controller {
 	{
 		$this->load->model('Locations_model');
 		$data['locations'] = $this->Locations_model->find();
-		$data['js_to_load']=array("candidates/register.js");
+		$data['js_to_load']=array("candidates/register.js","candidates/login.js");
 		$this->load->view('templates/jobply/header');
 		$this->load->view('templates/jobply/register-candidate',$data);
 		$this->load->view('templates/jobply/footer');
